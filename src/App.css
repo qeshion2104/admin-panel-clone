@@ -13,11 +13,21 @@
   --boxShadow: 0px 19px 60px rgb(0 0 0 / 8%);
   --smboxShadow: -79px 51px 60px rgba(0, 0, 0, 0.08);
 
+  --cardShadow-offset: 0px 10px 20px 0px;
   /* Theme */
   --primary-bg-color: linear-gradient(90deg, rgba(255,225,188,1) 29%, rgba(255,207,209,1) 51%, rgba(243,198,241,1) 90%);
   --primary-glass-color: var(--glass);
   --primary-activeItem-color: var(--activeItem);
   --primary-activeItem-before-color: var(--pink);
+
+  --primary-card-1-color: linear-gradient(180deg, #bb67ff 0%, #fc929d 100%);
+  --primary-card-1-shadow: var(--cardShadow-offset) #e0c6f5;
+
+  --primary-card-2-color: linear-gradient(180deg, #ff919d 0%, #fc929d 100%);
+  --primary-card-2-shadow: var(--cardShadow-offset) #fdc0c7;
+
+  --primary-card-3-color: linear-gradient(180deg, #F8D49A 0%, #FFCA67 100%);
+  --primary-card-3-shadow: var(--cardShadow-offset) #f9d59b;
 
   /*  */
 }
