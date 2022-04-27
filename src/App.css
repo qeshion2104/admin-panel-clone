@@ -29,6 +29,7 @@
   --primary-card-3-color: linear-gradient(180deg, #F8D49A 0%, #FFCA67 100%);
   --primary-card-3-shadow: var(--cardShadow-offset) #f9d59b;
 
+  --primary-card-font-color: white;
   /*  */
 }
 

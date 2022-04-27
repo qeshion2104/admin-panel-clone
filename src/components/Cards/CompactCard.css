@@ -3,7 +3,7 @@
     gap: 1rem;
     height: 7rem;
     border-radius: 0.7rem;
-    color: white;
+    color: var(--primary-card-font-color);
     position: relative;
     cursor: pointer;
     padding: 1rem;
@@ -29,7 +29,7 @@
 }
 
 .CircularProgressbar-path {
-    stroke: white !important;
+    stroke: var(--primary-card-font-color) !important;
     stroke-width: 8px !important;
     /* filter: drop-shadow(2px 4px 6px white); */
 }
@@ -39,7 +39,7 @@
 }
 
 .CircularProgressbar-text {
-    fill: white !important;
+    fill: var(--primary-card-font-color) !important;
 }
 
 

@@ -2,13 +2,15 @@ import React, { useState } from 'react'
 import "./Card.css"
 import { AnimateSharedLayout } from 'framer-motion'
 import CompactCard from './CompactCard';
-import ExpanedCard from './ExpanedCard';
+import ExpandedCard from './ExpandedCard';
 const Card = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
     return (
         <AnimateSharedLayout>
             {
-                isExpanded ? <ExpanedCard {...props}/> : <CompactCard {...props}/>
+                isExpanded 
+                    ? <ExpandedCard {...props} toggleExpand={() => setIsExpanded(false)}/> 
+                    : <CompactCard {...props} toggleExpand={() => setIsExpanded(true)}/>
             }
         </AnimateSharedLayout>
     )
