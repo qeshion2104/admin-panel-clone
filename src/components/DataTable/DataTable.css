@@ -1,0 +1,42 @@
+.Table th, td {
+    border: none !important;
+}
+
+.Table:first-child {
+    border-radius: 0.7rem !important;
+}
+
+
+.DataTable__status {
+    padding: 8px;
+    border-radius: 9px;
+}
+
+.DataTable__status--approved {
+    background: rgba(145, 254, 159, 0.49);
+    color: green;
+}
+
+.DataTable__status--pending {
+    background: #ffadad8f;
+    color: red;
+}
+
+.DataTable__status--delivered {
+    background: #59bfff;
+    color: white;
+}
+
+.DataTable__detail {
+    color: #00b5ff !important;
+    cursor: pointer;
+}
+
+
+.MuiTableRow-root {
+    padding: 10px;
+}
+
+.MuiTableRow-root.MuiTableRow-head {
+    font-weight: bold !important;
+}

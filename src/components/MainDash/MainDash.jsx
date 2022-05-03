@@ -1,5 +1,6 @@
 import React from 'react'
 import Cards from '../Cards/Cards'
+import DataTable from '../DataTable/DataTable'
 import "./MainDash.css"
 
 const MainDash = () => {
@@ -10,7 +11,7 @@ const MainDash = () => {
             <Cards/>
         </div>
         <div className="MainDash__table">
-            <div>table</div>
+            <DataTable/>
         </div>
     </div>
   )
