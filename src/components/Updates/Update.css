@@ -1,0 +1,21 @@
+.Update {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.Update__image {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.Update__notification {
+    margin-bottom: 0.5rem;
+}
+
+.Update__name {
+    font-weight: bold;
+}
+/* 
+.Update__time {
+
+} */
