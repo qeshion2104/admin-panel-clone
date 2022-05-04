@@ -43,3 +43,17 @@
         height: 70vh;
     }
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .ExpandedCard {
+        width: 80%;
+        height: 50%;
+    }
+
+    .ExpandedCard__chart {
+        flex: 0;
+        width: 90%;
+    }
+}

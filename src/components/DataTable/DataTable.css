@@ -49,3 +49,13 @@
         margin-top: 2rem;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .Table {
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        width: 18rem;
+        align-items: center;
+    }
+}

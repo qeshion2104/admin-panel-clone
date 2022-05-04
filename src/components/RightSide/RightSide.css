@@ -11,3 +11,15 @@
         justify-content: flex-start;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .RightSide {
+        align-items: center;
+    }
+
+    .RightSide > div {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
+}

@@ -9,3 +9,9 @@
         flex-direction: column;
     }
 }
+
+@media only screen and (max-width: 768px) {
+    .Cards {
+        align-items: center;
+    }
+}
