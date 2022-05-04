@@ -12,7 +12,6 @@ const Update = ({img, name, notification, time}) => {
         </div>
         <span>{time}</span>
       </div>
-      
     </div>
   )
 }

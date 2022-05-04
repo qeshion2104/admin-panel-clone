@@ -2,6 +2,7 @@ import React from 'react'
 import Updates from '../Updates/Updates'
 import "./RightSide.css"
 import { UpdatesData } from '../../Data'
+import CustomerReview from '../CustomerReview/CustomerReview'
 
 function RightSide(props) {
   return (
@@ -12,6 +13,7 @@ function RightSide(props) {
         </div>
         <div>
             <h3>Customer Review</h3>
+            <CustomerReview/>
         </div>        
     </div>
   )
