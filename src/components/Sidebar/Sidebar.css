@@ -61,3 +61,13 @@
     background: var(--primary-activeItem-before-color);
     margin-right: calc(2rem - 1rem - 8px);
 }
+
+@media only screen and (max-width: 1200px) {
+    .Sidebar__logo {
+        display: none;
+    }
+
+    .Sidebar__heading {
+        display: none;
+    }
+}

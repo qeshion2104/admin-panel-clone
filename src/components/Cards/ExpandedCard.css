@@ -37,3 +37,9 @@
     color: var(--primary-card-font-color);
     opacity: 0.5;
 }
+
+@media only screen and (max-width: 1200px) {
+    .ExpandedCard {
+        height: 70vh;
+    }
+}

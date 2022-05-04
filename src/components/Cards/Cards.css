@@ -3,3 +3,9 @@
     justify-content: space-evenly;
     gap: 1rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .Cards {
+        flex-direction: column;
+    }
+}

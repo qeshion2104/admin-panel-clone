@@ -6,13 +6,15 @@ import ExpandedCard from './ExpandedCard';
 const Card = (props) => {
     const [isExpanded, setIsExpanded] = useState(false);
     return (
-        <AnimateSharedLayout>
-            {
-                isExpanded 
-                    ? <ExpandedCard {...props} toggleExpand={() => setIsExpanded(false)}/> 
-                    : <CompactCard {...props} toggleExpand={() => setIsExpanded(true)}/>
-            }
-        </AnimateSharedLayout>
+        <div className="Card">
+            <AnimateSharedLayout>
+                {
+                    isExpanded 
+                        ? <ExpandedCard {...props} toggleExpand={() => setIsExpanded(false)}/> 
+                        : <CompactCard {...props} toggleExpand={() => setIsExpanded(true)}/>
+                }
+            </AnimateSharedLayout>
+        </div>
     )
 }
 

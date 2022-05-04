@@ -30,7 +30,7 @@ const Sidebar = () => {
                             onClick={() => setSelectedIndex(index)}
                         >
                             <item.icon/>
-                            <span>{item.heading}</span>
+                            <span className='Sidebar__heading'>{item.heading}</span>
                         </div>
                     )
                 })

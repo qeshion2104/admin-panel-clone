@@ -4,3 +4,10 @@
     width: 95%;
     justify-content: space-evenly;
 }
+
+@media only screen and (max-width: 1200px) {
+    .RightSide {
+        margin-top: 3rem;
+        justify-content: flex-start;
+    }
+}

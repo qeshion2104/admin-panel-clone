@@ -57,3 +57,41 @@ body {
   background: var(--primary-glass-color);
   overflow: hidden;
 }
+
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (max-width: 1200px) {
+
+}
+
+
+@media only screen and (max-width: 1200px) {
+  :root {
+    --primary-bg-color: linear-gradient(90deg, rgba(100,100,100,1) 29%, rgba(255,207,209,1) 51%, rgba(23,10,255,1) 90%);
+  }
+  
+  .App__Glass {
+    grid-template-columns: 10% 50% auto;
+    overflow-y: scroll;
+  }
+}

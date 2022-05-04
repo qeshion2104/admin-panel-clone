@@ -40,3 +40,12 @@
 .MuiTableRow-root.MuiTableRow-head {
     font-weight: bold !important;
 }
+
+
+
+@media only screen and (max-width: 1200px) {
+    .Table {
+        width: 170%;
+        margin-top: 2rem;
+    }
+}
